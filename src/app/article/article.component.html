@@ -1,0 +1,55 @@
+<div class="one">
+
+<div class="one wide column center aligned votes">
+  <div class="ui statistic">
+  <div class="value">
+  {{ article.votes }}
+  </div>
+  <div class="label">
+  times selected
+  </div>
+  </div>
+  </div>
+
+<div><p>
+
+  asdsa
+
+
+</p></div>
+
+  <div class="ui grid">
+      <div class="ui card">
+          <div class="image">
+            <img src="{{ article.s }}">
+          </div>
+          <div class="content">
+
+            <a class="header">{{ article.n }}</a>
+            <div class="meta">
+              <span class="date">{{ article.i }}</span>
+            </div>
+            <div class="description">
+              {{ article.d }}
+            </div>
+          </div>
+          <div class="extra content">
+              <div class="ui bottom attached button">
+                <a href (click)="voteUp()">
+                <i class="thumbs up outline icon"></i>
+                  Select</a>
+                </div>
+            <div class="ui bottom attached button">
+              <a href (click)="voteDown()">
+                <i class="thumbs down outline icon"></i>
+                Unselect</a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+  </div>
+</div>
